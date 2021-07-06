@@ -3,7 +3,6 @@ from .models import Prediction
 
 import numpy as np
 import pandas as pd
-import pandas_datareader as web
 import datetime as dt
 
 from sklearn.preprocessing import MinMaxScaler

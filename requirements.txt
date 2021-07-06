@@ -9,9 +9,6 @@ cycler==0.10.0
 Django==3.2.4
 flatbuffers==1.12
 gast==0.4.0
-google-auth==1.32.1
-google-auth-oauthlib==0.4.4
-google-pasta==0.2.0
 grpcio==1.34.1
 gunicorn==20.1.0
 h5py==3.1.0
@@ -22,13 +19,11 @@ Keras-Preprocessing==1.1.2
 kiwisolver==1.3.1
 lxml==4.6.3
 Markdown==3.3.4
-matplotlib==3.4.2
 mpmath==1.2.1
 numpy==1.19.5
 oauthlib==3.1.1
 opt-einsum==3.3.0
 pandas==1.3.0
-pandas-datareader==0.9.0
 Pillow==8.2.0
 protobuf==3.17.3
 psycopg2==2.9.1
@@ -45,7 +40,6 @@ scikit-learn==0.24.2
 scipy==1.7.0
 six==1.15.0
 sqlparse==0.4.1
-sympy==1.8
 tensorboard==2.5.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
