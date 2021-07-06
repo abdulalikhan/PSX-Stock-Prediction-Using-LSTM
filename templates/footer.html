@@ -1,0 +1,59 @@
+{% load static %}
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+	<script src="{% static 'js/dashboard.js' %}"></script>
+	<script>
+	function getAccuracy() {
+		d = document.getElementById("company_title").value;
+		if (d == 'ACPL'){
+			accuracy = "91.29%";
+		}else if (d == 'BWCL'){
+			accuracy = "95.06%";
+		}else if (d == 'CHCC'){
+			accuracy = "85.00%";
+		}else if (d == 'DCL'){
+			accuracy = "89.30%";
+		}else if (d == 'DGKC'){
+			accuracy = "91.31%";
+		}else if (d == 'DNCC'){
+			accuracy = "72.00%";
+		}else if (d == 'FCCL'){
+			accuracy = "92.05%";
+		}else if (d == 'FECTC'){
+			accuracy = "89.56%";
+		}else if (d == 'FLYNG'){
+			accuracy = "72.17%";
+		}else if (d == 'GWLC'){
+			accuracy = "81.74%";
+		}else if (d == 'JVDC'){
+			accuracy = "70.50%";
+		}else if (d == 'KOHC'){
+			accuracy = "94.02%";
+		}else if (d == 'LUCK'){
+			accuracy = "85.75%";
+		}else if (d == 'MLCF'){
+			accuracy = "92.52%";
+		}else if (d == "PIOC"){
+			accuracy = "84.30%";
+		}else if (d == "POWER"){
+			accuracy = "90.77%";
+		}else if (d == "SMCPL"){
+			accuracy = "84.61%";
+		}else if (d == "THCCL"){
+			accuracy = "90.14%";
+		}
+		document.getElementById("percentAccuracy").innerHTML = accuracy;
+	}
+	</script>
+	<script>
+	function termsChanged(termsCheckBox){
+		if(termsCheckBox.checked){
+			document.getElementById("submit").disabled = false;
+		} else{
+			document.getElementById("submit").disabled = true;
+		}
+	}
+	</script>
+  </body>
+</html>

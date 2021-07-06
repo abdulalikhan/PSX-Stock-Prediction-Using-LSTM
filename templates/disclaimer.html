@@ -1,0 +1,55 @@
+{% include 'header.html' %}
+
+{% block content %}
+<div class="container-fluid">
+	<div class="row">
+	  <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+		<div class="position-sticky pt-3">
+		  <ul class="nav flex-column">
+			<li class="nav-item">
+			  <a class="nav-link" aria-current="page" href="/">
+				<span data-feather="home"></span>
+				Home
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link active" href="#">
+				<span data-feather="alert-triangle"></span>
+				Disclaimer
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="https://github.com/abdulalikhan/PSX-Stock-Prediction-Using-LSTM#readme">
+				<span data-feather="bar-chart-2"></span>
+				Methodology
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="https://www.linkedin.com/in/abdul-ali-khan-620632144/">
+				<span data-feather="linkedin"></span>
+				Contact
+			  </a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+  
+	  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+		<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+		  <h1 class="h2">Disclaimer</h1>
+		</div>
+  
+		<h3>DO NOT BASE ANY INVESTMENT DECISION UPON ANY MATERIALS FOUND ON THIS WEBSITE.</h3>
+		 <p>Our website has been prepared for informational purposes only and is not intended to be used as a complete source of information on any particular company. An individual should never invest in the securities of any of the companies’ mentioned based solely on information contained on our website.</p>
+		 <p>Individuals should assume that all information provided regarding companies is not trustworthy unless verified by their own independent research.</p>
+
+		<p>Any individual who chooses to invest in any securities should do so with caution. Investing in securities is speculative and carries a high degree of risk; you may lose some or all of the money that is invested. Always research your own investments and consult with a registered investment advisor or licensed stock broker before investing.</p>
+			
+		<p>Past performance is not indicative of future results. The material contained on this website is intended for informational purposes only.</p>
+		<p><b>IF YOU DO NOT AGREE WITH THE TERMS OF THIS DISCLAIMER, PLEASE EXIT THIS SITE IMMEDIATELY. PLEASE BE ADVISED THAT YOUR CONTINUED USE OF THIS SITE OR THE INFORMATION PROVIDED HEREIN SHALL INDICATE YOUR CONSENT AND AGREEMENT TO THESE TERMS.</b></p>
+	  </main>
+	</div>
+  </div>
+  {% endblock %}
+
+{% include 'footer.html' %}

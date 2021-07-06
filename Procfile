@@ -1,0 +1,1 @@
+web: gunicorn psx_prediction.wsgi --log-file -
